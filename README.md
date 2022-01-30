@@ -45,7 +45,7 @@ A cross platform advance keylogger app that keep listening key strokes and send 
 
 1. Clone the repo 
 
-       git clone https://github.com/im-vvk/Blur-Image-Detection
+       git clone https://github.com/im-vvk/keylogger
 
 2. Install dependencies
         
