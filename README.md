@@ -43,8 +43,30 @@ A cross platform advance keylogger app that keep listening key strokes and send 
 
 ## How to set-up and run
 
-1. Clone the repo by `git clone https://github.com/im-vvk/Blur-Image-Detection`
+1. Clone the repo 
 
-2. Run `pip install -r requirements.txt` to install dependencies
+       git clone https://github.com/im-vvk/Blur-Image-Detection
 
-3. `python main.py` to run the app.
+2. Install dependencies
+        
+       pip install -r requirements.txt
+       
+3. Run the app.
+
+       python main.py
+
+#### Optional Steps to generate single executable file for windows
+
+4. Install pyinsatller
+
+       pip install pyinstaller
+
+5. Generate single executable file
+
+       pyinstaller --onefile --windowed main.py
+
+## How it works
+
+Please refer the `main.py` for detailed description along with code.
+
+**NOTE: This is only for educational purpose.**
